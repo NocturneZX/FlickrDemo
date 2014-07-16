@@ -14,3 +14,6 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#define FLICKR_API_KEY @"cb9ddc90f13df3d47819c30111c851be"
+#define FLICKR_SECRET_KEY @"d198467a13b07d76"

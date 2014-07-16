@@ -21,6 +21,41 @@
 		4D0BA12F19719A2E00FB7FB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0BA11119719A2E00FB7FB0 /* UIKit.framework */; };
 		4D0BA13719719A2E00FB7FB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA13519719A2E00FB7FB0 /* InfoPlist.strings */; };
 		4D0BA13919719A2E00FB7FB0 /* FlickrDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA13819719A2E00FB7FB0 /* FlickrDemoTests.m */; };
+		4D0BA14419719C4000FB7FB0 /* FlickrIbXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA14319719C4000FB7FB0 /* FlickrIbXTableViewCell.m */; };
+		4D0BA1471971A01A00FB7FB0 /* FlickrDataDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1461971A01A00FB7FB0 /* FlickrDataDownloader.m */; };
+		4D0BA14A1973202600FB7FB0 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1491973202600FB7FB0 /* FlickrPhoto.m */; };
+		4D0BA14D1973282C00FB7FB0 /* FlickrDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA14C1973282C00FB7FB0 /* FlickrDetailedViewController.m */; };
+		4D0BA15C1975CBDB00FB7FB0 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA1511975CBDB00FB7FB0 /* LICENSE.txt */; };
+		4D0BA15D1975CBDB00FB7FB0 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA1521975CBDB00FB7FB0 /* OpenSans-Bold.ttf */; };
+		4D0BA15E1975CBDB00FB7FB0 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA1531975CBDB00FB7FB0 /* OpenSans-BoldItalic.ttf */; };
+		4D0BA15F1975CBDB00FB7FB0 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA1541975CBDB00FB7FB0 /* OpenSans-ExtraBold.ttf */; };
+		4D0BA1601975CBDB00FB7FB0 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA1551975CBDB00FB7FB0 /* OpenSans-ExtraBoldItalic.ttf */; };
+		4D0BA1611975CBDB00FB7FB0 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA1561975CBDB00FB7FB0 /* OpenSans-Italic.ttf */; };
+		4D0BA1621975CBDB00FB7FB0 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA1571975CBDB00FB7FB0 /* OpenSans-Light.ttf */; };
+		4D0BA1631975CBDB00FB7FB0 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA1581975CBDB00FB7FB0 /* OpenSans-LightItalic.ttf */; };
+		4D0BA1641975CBDB00FB7FB0 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA1591975CBDB00FB7FB0 /* OpenSans-Regular.ttf */; };
+		4D0BA1651975CBDB00FB7FB0 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA15A1975CBDB00FB7FB0 /* OpenSans-Semibold.ttf */; };
+		4D0BA1661975CBDB00FB7FB0 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA15B1975CBDB00FB7FB0 /* OpenSans-SemiboldItalic.ttf */; };
+		4D0BA16A1975CDB600FB7FB0 /* circlemask.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA1681975CDB600FB7FB0 /* circlemask.png */; };
+		4D0BA16B1975CDB600FB7FB0 /* white-large-chiclet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA1691975CDB600FB7FB0 /* white-large-chiclet.png */; };
+		4D0BA19F197711A500FB7FB0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0BA19E197711A500FB7FB0 /* ImageIO.framework */; };
+		4D0BA1A1197711B000FB7FB0 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0BA1A0197711B000FB7FB0 /* CoreImage.framework */; };
+		4D0BA1C41977125700FB7FB0 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1A41977125700FB7FB0 /* MKAnnotationView+WebCache.m */; };
+		4D0BA1C51977125700FB7FB0 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1A61977125700FB7FB0 /* NSData+ImageContentType.m */; };
+		4D0BA1C61977125700FB7FB0 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1A81977125700FB7FB0 /* SDImageCache.m */; };
+		4D0BA1C71977125700FB7FB0 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1AA1977125700FB7FB0 /* SDWebImageCompat.m */; };
+		4D0BA1C81977125700FB7FB0 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1AC1977125700FB7FB0 /* SDWebImageDecoder.m */; };
+		4D0BA1C91977125700FB7FB0 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1AE1977125700FB7FB0 /* SDWebImageDownloader.m */; };
+		4D0BA1CA1977125700FB7FB0 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1B01977125700FB7FB0 /* SDWebImageDownloaderOperation.m */; };
+		4D0BA1CB1977125700FB7FB0 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1B21977125700FB7FB0 /* SDWebImageManager.m */; };
+		4D0BA1CC1977125700FB7FB0 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1B51977125700FB7FB0 /* SDWebImagePrefetcher.m */; };
+		4D0BA1CD1977125700FB7FB0 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1B71977125700FB7FB0 /* UIButton+WebCache.m */; };
+		4D0BA1CE1977125700FB7FB0 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1B91977125700FB7FB0 /* UIImage+GIF.m */; };
+		4D0BA1CF1977125700FB7FB0 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1BB1977125700FB7FB0 /* UIImage+MultiFormat.m */; };
+		4D0BA1D01977125700FB7FB0 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1BD1977125700FB7FB0 /* UIImage+WebP.m */; };
+		4D0BA1D11977125700FB7FB0 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1BF1977125700FB7FB0 /* UIImageView+HighlightedWebCache.m */; };
+		4D0BA1D21977125700FB7FB0 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1C11977125700FB7FB0 /* UIImageView+WebCache.m */; };
+		4D0BA1D31977125700FB7FB0 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA1C31977125700FB7FB0 /* UIView+WebCacheOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +88,62 @@
 		4D0BA13419719A2E00FB7FB0 /* FlickrDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickrDemoTests-Info.plist"; sourceTree = "<group>"; };
 		4D0BA13619719A2E00FB7FB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D0BA13819719A2E00FB7FB0 /* FlickrDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrDemoTests.m; sourceTree = "<group>"; };
+		4D0BA14219719C4000FB7FB0 /* FlickrIbXTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrIbXTableViewCell.h; sourceTree = "<group>"; };
+		4D0BA14319719C4000FB7FB0 /* FlickrIbXTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrIbXTableViewCell.m; sourceTree = "<group>"; };
+		4D0BA1451971A01A00FB7FB0 /* FlickrDataDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlickrDataDownloader.h; path = ../FlickrDataDownloader.h; sourceTree = "<group>"; };
+		4D0BA1461971A01A00FB7FB0 /* FlickrDataDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlickrDataDownloader.m; path = ../FlickrDataDownloader.m; sourceTree = "<group>"; };
+		4D0BA1481973202600FB7FB0 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		4D0BA1491973202600FB7FB0 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		4D0BA14B1973282C00FB7FB0 /* FlickrDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrDetailedViewController.h; sourceTree = "<group>"; };
+		4D0BA14C1973282C00FB7FB0 /* FlickrDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrDetailedViewController.m; sourceTree = "<group>"; };
+		4D0BA1511975CBDB00FB7FB0 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		4D0BA1521975CBDB00FB7FB0 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		4D0BA1531975CBDB00FB7FB0 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4D0BA1541975CBDB00FB7FB0 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4D0BA1551975CBDB00FB7FB0 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4D0BA1561975CBDB00FB7FB0 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		4D0BA1571975CBDB00FB7FB0 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		4D0BA1581975CBDB00FB7FB0 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		4D0BA1591975CBDB00FB7FB0 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		4D0BA15A1975CBDB00FB7FB0 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		4D0BA15B1975CBDB00FB7FB0 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		4D0BA1681975CDB600FB7FB0 /* circlemask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circlemask.png; sourceTree = "<group>"; };
+		4D0BA1691975CDB600FB7FB0 /* white-large-chiclet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-large-chiclet.png"; sourceTree = "<group>"; };
+		4D0BA19E197711A500FB7FB0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4D0BA1A0197711B000FB7FB0 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		4D0BA1A31977125700FB7FB0 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		4D0BA1A41977125700FB7FB0 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		4D0BA1A51977125700FB7FB0 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		4D0BA1A61977125700FB7FB0 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		4D0BA1A71977125700FB7FB0 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		4D0BA1A81977125700FB7FB0 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		4D0BA1A91977125700FB7FB0 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		4D0BA1AA1977125700FB7FB0 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		4D0BA1AB1977125700FB7FB0 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		4D0BA1AC1977125700FB7FB0 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		4D0BA1AD1977125700FB7FB0 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		4D0BA1AE1977125700FB7FB0 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		4D0BA1AF1977125700FB7FB0 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		4D0BA1B01977125700FB7FB0 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		4D0BA1B11977125700FB7FB0 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		4D0BA1B21977125700FB7FB0 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		4D0BA1B31977125700FB7FB0 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		4D0BA1B41977125700FB7FB0 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		4D0BA1B51977125700FB7FB0 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		4D0BA1B61977125700FB7FB0 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		4D0BA1B71977125700FB7FB0 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		4D0BA1B81977125700FB7FB0 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		4D0BA1B91977125700FB7FB0 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		4D0BA1BA1977125700FB7FB0 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		4D0BA1BB1977125700FB7FB0 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		4D0BA1BC1977125700FB7FB0 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		4D0BA1BD1977125700FB7FB0 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		4D0BA1BE1977125700FB7FB0 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		4D0BA1BF1977125700FB7FB0 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		4D0BA1C01977125700FB7FB0 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		4D0BA1C11977125700FB7FB0 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		4D0BA1C21977125700FB7FB0 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		4D0BA1C31977125700FB7FB0 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +151,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0BA1A1197711B000FB7FB0 /* CoreImage.framework in Frameworks */,
+				4D0BA19F197711A500FB7FB0 /* ImageIO.framework in Frameworks */,
 				4D0BA11019719A2E00FB7FB0 /* CoreGraphics.framework in Frameworks */,
 				4D0BA11219719A2E00FB7FB0 /* UIKit.framework in Frameworks */,
 				4D0BA10E19719A2E00FB7FB0 /* Foundation.framework in Frameworks */,
@@ -82,6 +175,7 @@
 		4D0BA10119719A2E00FB7FB0 = {
 			isa = PBXGroup;
 			children = (
+				4D0BA1A21977125700FB7FB0 /* SDWebImage */,
 				4D0BA11319719A2E00FB7FB0 /* FlickrDemo */,
 				4D0BA13219719A2E00FB7FB0 /* FlickrDemoTests */,
 				4D0BA10C19719A2E00FB7FB0 /* Frameworks */,
@@ -101,6 +195,8 @@
 		4D0BA10C19719A2E00FB7FB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D0BA1A0197711B000FB7FB0 /* CoreImage.framework */,
+				4D0BA19E197711A500FB7FB0 /* ImageIO.framework */,
 				4D0BA10D19719A2E00FB7FB0 /* Foundation.framework */,
 				4D0BA10F19719A2E00FB7FB0 /* CoreGraphics.framework */,
 				4D0BA11119719A2E00FB7FB0 /* UIKit.framework */,
@@ -112,6 +208,8 @@
 		4D0BA11319719A2E00FB7FB0 /* FlickrDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4D0BA1451971A01A00FB7FB0 /* FlickrDataDownloader.h */,
+				4D0BA1461971A01A00FB7FB0 /* FlickrDataDownloader.m */,
 				4D0BA11C19719A2E00FB7FB0 /* AppDelegate.h */,
 				4D0BA11D19719A2E00FB7FB0 /* AppDelegate.m */,
 				4D0BA11F19719A2E00FB7FB0 /* Main.storyboard */,
@@ -119,6 +217,12 @@
 				4D0BA12319719A2E00FB7FB0 /* ViewController.m */,
 				4D0BA12519719A2E00FB7FB0 /* Images.xcassets */,
 				4D0BA11419719A2E00FB7FB0 /* Supporting Files */,
+				4D0BA14219719C4000FB7FB0 /* FlickrIbXTableViewCell.h */,
+				4D0BA14319719C4000FB7FB0 /* FlickrIbXTableViewCell.m */,
+				4D0BA1481973202600FB7FB0 /* FlickrPhoto.h */,
+				4D0BA1491973202600FB7FB0 /* FlickrPhoto.m */,
+				4D0BA14B1973282C00FB7FB0 /* FlickrDetailedViewController.h */,
+				4D0BA14C1973282C00FB7FB0 /* FlickrDetailedViewController.m */,
 			);
 			path = FlickrDemo;
 			sourceTree = "<group>";
@@ -126,6 +230,8 @@
 		4D0BA11419719A2E00FB7FB0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D0BA1671975CDB600FB7FB0 /* Custom Images */,
+				4D0BA1501975CBDB00FB7FB0 /* Custom Fonts */,
 				4D0BA11519719A2E00FB7FB0 /* FlickrDemo-Info.plist */,
 				4D0BA11619719A2E00FB7FB0 /* InfoPlist.strings */,
 				4D0BA11919719A2E00FB7FB0 /* main.m */,
@@ -150,6 +256,73 @@
 				4D0BA13519719A2E00FB7FB0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D0BA1501975CBDB00FB7FB0 /* Custom Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BA1511975CBDB00FB7FB0 /* LICENSE.txt */,
+				4D0BA1521975CBDB00FB7FB0 /* OpenSans-Bold.ttf */,
+				4D0BA1531975CBDB00FB7FB0 /* OpenSans-BoldItalic.ttf */,
+				4D0BA1541975CBDB00FB7FB0 /* OpenSans-ExtraBold.ttf */,
+				4D0BA1551975CBDB00FB7FB0 /* OpenSans-ExtraBoldItalic.ttf */,
+				4D0BA1561975CBDB00FB7FB0 /* OpenSans-Italic.ttf */,
+				4D0BA1571975CBDB00FB7FB0 /* OpenSans-Light.ttf */,
+				4D0BA1581975CBDB00FB7FB0 /* OpenSans-LightItalic.ttf */,
+				4D0BA1591975CBDB00FB7FB0 /* OpenSans-Regular.ttf */,
+				4D0BA15A1975CBDB00FB7FB0 /* OpenSans-Semibold.ttf */,
+				4D0BA15B1975CBDB00FB7FB0 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = "Custom Fonts";
+			sourceTree = "<group>";
+		};
+		4D0BA1671975CDB600FB7FB0 /* Custom Images */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BA1681975CDB600FB7FB0 /* circlemask.png */,
+				4D0BA1691975CDB600FB7FB0 /* white-large-chiclet.png */,
+			);
+			path = "Custom Images";
+			sourceTree = "<group>";
+		};
+		4D0BA1A21977125700FB7FB0 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BA1A31977125700FB7FB0 /* MKAnnotationView+WebCache.h */,
+				4D0BA1A41977125700FB7FB0 /* MKAnnotationView+WebCache.m */,
+				4D0BA1A51977125700FB7FB0 /* NSData+ImageContentType.h */,
+				4D0BA1A61977125700FB7FB0 /* NSData+ImageContentType.m */,
+				4D0BA1A71977125700FB7FB0 /* SDImageCache.h */,
+				4D0BA1A81977125700FB7FB0 /* SDImageCache.m */,
+				4D0BA1A91977125700FB7FB0 /* SDWebImageCompat.h */,
+				4D0BA1AA1977125700FB7FB0 /* SDWebImageCompat.m */,
+				4D0BA1AB1977125700FB7FB0 /* SDWebImageDecoder.h */,
+				4D0BA1AC1977125700FB7FB0 /* SDWebImageDecoder.m */,
+				4D0BA1AD1977125700FB7FB0 /* SDWebImageDownloader.h */,
+				4D0BA1AE1977125700FB7FB0 /* SDWebImageDownloader.m */,
+				4D0BA1AF1977125700FB7FB0 /* SDWebImageDownloaderOperation.h */,
+				4D0BA1B01977125700FB7FB0 /* SDWebImageDownloaderOperation.m */,
+				4D0BA1B11977125700FB7FB0 /* SDWebImageManager.h */,
+				4D0BA1B21977125700FB7FB0 /* SDWebImageManager.m */,
+				4D0BA1B31977125700FB7FB0 /* SDWebImageOperation.h */,
+				4D0BA1B41977125700FB7FB0 /* SDWebImagePrefetcher.h */,
+				4D0BA1B51977125700FB7FB0 /* SDWebImagePrefetcher.m */,
+				4D0BA1B61977125700FB7FB0 /* UIButton+WebCache.h */,
+				4D0BA1B71977125700FB7FB0 /* UIButton+WebCache.m */,
+				4D0BA1B81977125700FB7FB0 /* UIImage+GIF.h */,
+				4D0BA1B91977125700FB7FB0 /* UIImage+GIF.m */,
+				4D0BA1BA1977125700FB7FB0 /* UIImage+MultiFormat.h */,
+				4D0BA1BB1977125700FB7FB0 /* UIImage+MultiFormat.m */,
+				4D0BA1BC1977125700FB7FB0 /* UIImage+WebP.h */,
+				4D0BA1BD1977125700FB7FB0 /* UIImage+WebP.m */,
+				4D0BA1BE1977125700FB7FB0 /* UIImageView+HighlightedWebCache.h */,
+				4D0BA1BF1977125700FB7FB0 /* UIImageView+HighlightedWebCache.m */,
+				4D0BA1C01977125700FB7FB0 /* UIImageView+WebCache.h */,
+				4D0BA1C11977125700FB7FB0 /* UIImageView+WebCache.m */,
+				4D0BA1C21977125700FB7FB0 /* UIView+WebCacheOperation.h */,
+				4D0BA1C31977125700FB7FB0 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +401,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0BA1611975CBDB00FB7FB0 /* OpenSans-Italic.ttf in Resources */,
+				4D0BA15E1975CBDB00FB7FB0 /* OpenSans-BoldItalic.ttf in Resources */,
+				4D0BA15C1975CBDB00FB7FB0 /* LICENSE.txt in Resources */,
+				4D0BA1651975CBDB00FB7FB0 /* OpenSans-Semibold.ttf in Resources */,
+				4D0BA16A1975CDB600FB7FB0 /* circlemask.png in Resources */,
+				4D0BA15F1975CBDB00FB7FB0 /* OpenSans-ExtraBold.ttf in Resources */,
 				4D0BA12619719A2E00FB7FB0 /* Images.xcassets in Resources */,
+				4D0BA1631975CBDB00FB7FB0 /* OpenSans-LightItalic.ttf in Resources */,
 				4D0BA11819719A2E00FB7FB0 /* InfoPlist.strings in Resources */,
+				4D0BA15D1975CBDB00FB7FB0 /* OpenSans-Bold.ttf in Resources */,
 				4D0BA12119719A2E00FB7FB0 /* Main.storyboard in Resources */,
+				4D0BA1661975CBDB00FB7FB0 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				4D0BA16B1975CDB600FB7FB0 /* white-large-chiclet.png in Resources */,
+				4D0BA1621975CBDB00FB7FB0 /* OpenSans-Light.ttf in Resources */,
+				4D0BA1641975CBDB00FB7FB0 /* OpenSans-Regular.ttf in Resources */,
+				4D0BA1601975CBDB00FB7FB0 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +435,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0BA1D21977125700FB7FB0 /* UIImageView+WebCache.m in Sources */,
+				4D0BA1CE1977125700FB7FB0 /* UIImage+GIF.m in Sources */,
+				4D0BA1C71977125700FB7FB0 /* SDWebImageCompat.m in Sources */,
+				4D0BA1CD1977125700FB7FB0 /* UIButton+WebCache.m in Sources */,
+				4D0BA1CF1977125700FB7FB0 /* UIImage+MultiFormat.m in Sources */,
+				4D0BA1CC1977125700FB7FB0 /* SDWebImagePrefetcher.m in Sources */,
+				4D0BA1471971A01A00FB7FB0 /* FlickrDataDownloader.m in Sources */,
+				4D0BA1D31977125700FB7FB0 /* UIView+WebCacheOperation.m in Sources */,
+				4D0BA1C41977125700FB7FB0 /* MKAnnotationView+WebCache.m in Sources */,
+				4D0BA1D01977125700FB7FB0 /* UIImage+WebP.m in Sources */,
+				4D0BA14419719C4000FB7FB0 /* FlickrIbXTableViewCell.m in Sources */,
+				4D0BA1CA1977125700FB7FB0 /* SDWebImageDownloaderOperation.m in Sources */,
+				4D0BA1C81977125700FB7FB0 /* SDWebImageDecoder.m in Sources */,
 				4D0BA12419719A2E00FB7FB0 /* ViewController.m in Sources */,
+				4D0BA1D11977125700FB7FB0 /* UIImageView+HighlightedWebCache.m in Sources */,
+				4D0BA1C51977125700FB7FB0 /* NSData+ImageContentType.m in Sources */,
+				4D0BA1C91977125700FB7FB0 /* SDWebImageDownloader.m in Sources */,
+				4D0BA14A1973202600FB7FB0 /* FlickrPhoto.m in Sources */,
 				4D0BA11E19719A2E00FB7FB0 /* AppDelegate.m in Sources */,
+				4D0BA14D1973282C00FB7FB0 /* FlickrDetailedViewController.m in Sources */,
+				4D0BA1CB1977125700FB7FB0 /* SDWebImageManager.m in Sources */,
 				4D0BA11A19719A2E00FB7FB0 /* main.m in Sources */,
+				4D0BA1C61977125700FB7FB0 /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +585,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlickrDemo/FlickrDemo-Prefix.pch";
 				INFOPLIST_FILE = "FlickrDemo/FlickrDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +599,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlickrDemo/FlickrDemo-Prefix.pch";
 				INFOPLIST_FILE = "FlickrDemo/FlickrDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +664,7 @@
 				4D0BA13E19719A2E00FB7FB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D0BA13F19719A2E00FB7FB0 /* Build configuration list for PBXNativeTarget "FlickrDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +673,7 @@
 				4D0BA14119719A2E00FB7FB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

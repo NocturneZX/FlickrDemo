@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    //NSCache *_imageCache;
+}
+- (UIImage*) maskImage:(UIImage *)image withMask:(UIImage *)maskImage;
 
 @end
